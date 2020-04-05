@@ -1,0 +1,1 @@
+SELECT * FROM `constraint` WHERE `rentedfrom` < "2021-02-02" and `rentedto` < "2021-02-02" UNION SELECT * FROM `constraint` WHERE `rentedfrom` > "2021-02-02" and `rentedto` > "2021-02-02"
